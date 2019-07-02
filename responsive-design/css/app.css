@@ -1,0 +1,75 @@
+@import url('https://fonts.maateen.me/charukola-ultra-light/font.css');
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri&display=swap');
+
+body{
+    font-family: 'CharukolaUltraLight', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.heading{
+    font-size: 3.8em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    border-bottom: 15px double black;
+}
+
+.date {
+    font: 1.5em 'CharukolaUltraLight', sans-serif;
+    font-weight: bold;
+	text-align: center;
+	width: 280px;
+	margin: auto;
+	margin-top: 10px;
+	border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.columns {
+	display: flex;
+	justify-content: center;
+    margin-top: 10px;
+    border-top: 3px solid black;
+}
+
+.columns div {
+	flex-grow: 0;
+	flex-basis: 25%;
+	text-align: center;
+	padding: 0 25px;
+}
+
+.columns div p {
+	font-family: 'Hind Siliguri', sans-serif;
+	text-align: justify;
+}
+
+.footer {
+	text-align: center;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	padding: 5px 0;
+	border-top: 3px double black;
+	border-bottom: 3px double black;
+}
+
+@media only screen and (max-width: 1024px) {
+    .heading{
+        font-size: 3.2em;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 25px;
+        padding-bottom: 10px;
+        border-bottom: 15px double black;
+    }
+
+	.columns {
+		flex-direction: column;
+	}
+
+	.columns div {
+		padding: 0 10px;
+	}
+}
