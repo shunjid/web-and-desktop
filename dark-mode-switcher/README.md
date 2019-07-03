@@ -10,4 +10,4 @@ A simple webpage theme changer example using **HTML5** , **CSS3**  and **JavaScr
 
 Light             |  Dark
 :-------------------------:|:-------------------------:
-![Light Image](https://github.com/shunjid/web-and-desktop/blob/master/dark-mode-switcher/images/light.png)  |  ![Dark Image](https://github.com/shunjid/web-and-desktop/blob/master/dark-mode-switcher/images/Dark.png)
+![Light Image](https://github.com/shunjid/web-and-desktop/blob/master/dark-mode-switcher/images/light.png)  |  ![Dark Image](https://github.com/shunjid/web-and-desktop/blob/master/dark-mode-switcher/images/dark.png)
